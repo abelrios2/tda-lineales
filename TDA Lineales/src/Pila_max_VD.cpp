@@ -27,11 +27,11 @@ void Pila_max::quitar(){
     p.pop_back();
 }
        
-elemento Pila_max::tope() const{
+const elemento & Pila_max::tope() const{
     return p.back();
 }
 
-elemento& Pila_max::tope(){
+elemento & Pila_max::tope(){
     return p.back();
 }
        

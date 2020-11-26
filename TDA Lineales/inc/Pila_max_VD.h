@@ -69,14 +69,14 @@ public:
      * @return una copia del elemento
      * @post Es el método constante, no modifica la pila.
      */
-    elemento tope() const;
+    const elemento & tope() const;
 
     /**
      * @brief Método de consulta del tope de la pila
      * @return una referencia del elemento tope
      * @post Es una referencia
     */
-    elemento& tope();
+    elemento & tope();
     
     /**
      * @brief Indica si la pila está vacia o no
