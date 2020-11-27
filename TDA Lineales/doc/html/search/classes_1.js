@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pila_5fmax_11',['Pila_max',['../classPila__max.html',1,'']]]
+  ['elemento_25',['elemento',['../structelemento.html',1,'']]]
 ];

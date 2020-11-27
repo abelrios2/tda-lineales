@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vacia_18',['vacia',['../classPila__max.html#a4b5784d89db4908b84a4ece46bc179fb',1,'Pila_max']]]
+  ['num_5felementos_36',['num_elementos',['../classCola.html#a26e5b0df5411aa23114d790f0a8c023b',1,'Cola']]]
 ];

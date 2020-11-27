@@ -30,4 +30,7 @@ var menudata={children:[
 {text:"Funciones",url:"functions_func.html"},
 {text:"Variables",url:"functions_vars.html"}]}]},
 {text:"Archivos",url:"files.html",children:[
-{text:"Lista de archivos",url:"files.html"}]}]}
+{text:"Lista de archivos",url:"files.html"},
+{text:"Miembros de los ficheros",url:"globals.html",children:[
+{text:"Todo",url:"globals.html"},
+{text:"Funciones",url:"globals_func.html"}]}]}]}

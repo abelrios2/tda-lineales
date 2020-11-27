@@ -8,6 +8,7 @@
 #ifndef PILA_MAX_COLA_H
 #define PILA_MAX_COLA_H
 #include "cola.h"
+#include <iostream>
 
 /**
  * @brief estructura usada en la pila, almacena un entero y el máximo de la pila en el momento que se inserta
@@ -44,7 +45,7 @@ public:
      * @param otro la pila que asignamos a la actual
      * @return devuelve una referencia de la pila actual
      */
-    Pila_max & operator=(const Pila_max& otro);
+    Pila_max & operator=(const Pila_max& otro) = default;
     
     /**
      * @brief Destructor de la clase, es el predeterminado
@@ -67,7 +68,7 @@ public:
      * @return una copia del elemento
      * @post Es el método constante, no modifica la pila.
      */
-    elemento tope() const;
+    const elemento & tope() const;
 
     /**
      * @brief Método de consulta del tope de la pila
@@ -83,8 +84,19 @@ public:
      *          @retval false en caso contrario
      */
     bool vacia() const;
-}
+};
 
+
+                /* FUNCIONES EXTERNAS */
+
+/**
+ * @brief funcion para mostrar por pantalla el struct elemento
+ * @param os el flujo de salida
+ * @param e el elemento a mostrar
+ * @return el flujo
+*/
+
+std::ostream & operator<<(std::ostream & os, elemento e);
 
 
 

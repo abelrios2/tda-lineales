@@ -24,7 +24,9 @@ void Pila_max::poner(int nuevo){
 }
      
 void Pila_max::quitar(){
-    p.pop_back();
+    if (!vacia()){
+        p.pop_back();
+    }
 }
        
 const elemento & Pila_max::tope() const{
