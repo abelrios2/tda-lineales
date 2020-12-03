@@ -1,5 +1,5 @@
 /**
- * @file Pila_max_VD.cpp
+ * @file Pila_max_Cola.cpp
  * @brief archivo con las implementaciones de los métodos de la clase pila con máximo (cola)
  * @author Salvador Romero Cortés
  * @author Abel Ríos González
