@@ -13,7 +13,7 @@ using namespace std;
 // int main(){
 //     Pila_max p1;
 //     srand(time(NULL));
-
+//     cout << "Pila con máximo, implementación de colas." << endl;
 //     cout << "\nCola 1:\nElemento Máximo";
 //     for (int i=0; i < 10; i++){
 //         int numero = rand() % 10 + 1;
@@ -43,6 +43,7 @@ using namespace std;
 int main(){
     Pila_max p;
     int i;
+    cout << "Pila con máximo, implementación de colas." << endl;
     for (i = 10; i >= 0; i--)
         p.poner(i);
     while (!p.vacia()){
