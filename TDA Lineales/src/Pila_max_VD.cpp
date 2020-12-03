@@ -1,3 +1,9 @@
+/**
+ * @file Pila_max_VD.cpp
+ * @brief archivo con las implementaciones de los métodos de la clase pila con máximo (vectores)
+ * @author Salvador Romero Cortés
+ * @author Abel Ríos González
+*/
 #include <Pila_max_VD.h>
 #include <vector>
 
